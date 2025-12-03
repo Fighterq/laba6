@@ -87,4 +87,4 @@ jobs:
           author_name: GitHub Actions
           fields: repo,message,commit,author,action
         env:
-          SLACK_WEBHOOK_URL: "www.youtube.com"
+          SLACK_WEBHOOK_URL: ${{ secrets.SLACK_WEBHOOK_URL }}
